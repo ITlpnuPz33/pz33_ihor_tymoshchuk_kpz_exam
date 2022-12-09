@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32825.248
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "kpz_ex", "kpz_ex\kpz_ex.csproj", "{B13D983C-2E12-4D92-BFFF-736541673133}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "kpz_ex_ui", "kpz_ex_ui\kpz_ex_ui.csproj", "{20610E70-E5FD-4919-9CBF-142BFB576146}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B13D983C-2E12-4D92-BFFF-736541673133}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B13D983C-2E12-4D92-BFFF-736541673133}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B13D983C-2E12-4D92-BFFF-736541673133}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B13D983C-2E12-4D92-BFFF-736541673133}.Release|Any CPU.Build.0 = Release|Any CPU
+		{20610E70-E5FD-4919-9CBF-142BFB576146}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{20610E70-E5FD-4919-9CBF-142BFB576146}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{20610E70-E5FD-4919-9CBF-142BFB576146}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{20610E70-E5FD-4919-9CBF-142BFB576146}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7F280DA0-BFD5-4DB8-A321-CED24CDAB62F}
+	EndGlobalSection
+EndGlobal

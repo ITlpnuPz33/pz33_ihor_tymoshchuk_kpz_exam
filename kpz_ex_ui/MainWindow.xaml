@@ -1,0 +1,26 @@
+﻿<Window x:Class="kpz_ex_ui.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:kpz_ex_ui"
+        Loaded="OnLoad"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <DataGrid HorizontalAlignment="Left" Name="dataGridBooks" Height="348" Margin="20,0,0,0" VerticalAlignment="Center" Width="466" />
+        <Button Content="Add" HorizontalAlignment="Left" Height="36" Margin="538,164,0,0" VerticalAlignment="Top" Width="217" Click="AddButton_Click"/>
+            <Button Content="Return" HorizontalAlignment="Left" Height="36" Margin="538,355,0,0" VerticalAlignment="Top" Width="217" Click="ReturnButton_Click"/>
+        <Button Content="Borrow" HorizontalAlignment="Left" Height="36" Margin="538,314,0,0" VerticalAlignment="Top" Width="217" Click="BorrowButton_Click"/>
+        <TextBox  Name="BookNameTxt" HorizontalAlignment="Left" Height="24" Margin="610,48,0,0" TextWrapping="Wrap" Text="Name" VerticalAlignment="Top" Width="145"/>
+        <TextBox  Name="AuthorNameTxt" HorizontalAlignment="Left" Height="24" Margin="610,77,0,0" TextWrapping="Wrap" Text="Author" VerticalAlignment="Top" Width="145"/>
+        <TextBox  Name="QuantityTxt" HorizontalAlignment="Left" Height="24" Margin="610,105,0,0" TextWrapping="Wrap" Text="0" VerticalAlignment="Top" Width="145"/>
+        <Label Content="Name" HorizontalAlignment="Left" Margin="535,43,0,0" VerticalAlignment="Top"/>
+        <Label Content="Author" HorizontalAlignment="Left" Margin="535,72,0,0" VerticalAlignment="Top"/>
+        <Label Content="Quantity" HorizontalAlignment="Left" Margin="535,103,0,0" VerticalAlignment="Top"/>
+        <TextBox  x:Name="Book_Id" HorizontalAlignment="Left" Height="24" Margin="610,285,0,0" TextWrapping="Wrap" Text="0" VerticalAlignment="Top" Width="145"/>
+        <Label Content="Quantity" HorizontalAlignment="Left" Margin="535,103,0,0" VerticalAlignment="Top"/>
+        <Label Content="Id" HorizontalAlignment="Left" Margin="535,283,0,0" VerticalAlignment="Top"/>
+
+    </Grid>
+</Window>
